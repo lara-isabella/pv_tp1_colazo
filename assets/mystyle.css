@@ -11,33 +11,32 @@
 
 body {
     font-family: 'MS', sans-serif;
-    background-color: #fbe4ca; 
+    background-color: #dbe2cd; 
     color: #1f2530;
 }
 
 header {
-    background-color: #fbe4ca;
-    color: #1f2530;
+    background-color: #335765;
+    color: #dbe2cd;
     padding: 10px;
     text-align: center;
 }
 
 nav {
-    background-color: #fbe4ca; 
+    background-color: #dbe2cd; 
     color: #1f2530;
+    font-weight: bold;
     padding: 5px;
     text-align: center;
 }
 
 nav a {
     color: #1f2530;
-    text-decoration: none;
     margin: 0 15px;
-    font-weight: bold;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    font-weight: bolder;
 }
 
 main {
@@ -53,14 +52,15 @@ article {
 
 aside {
     flex: 1;
-    border-left: 1px solid #ccc;
+    border-left: 1px solid #dbe2cd;
 }
 
 section, article, aside {
-    background-color: #facaa1;
-    color: #7a564e;
+    background-color: #b6d9ee;
+    color: #1f2530;
     padding: 20px;
     box-sizing: border-box;
+    margin: 15px;
 }
 
 
@@ -68,9 +68,9 @@ form {
     display: block;
     max-width: 400px;
     margin: 20px auto;
-    background-color: #fbe4ca;
+    background-color: #b6d9ee;
     padding: 15px;
-    border: 1px solid #cf8861;
+    border: 15px solid #74a8a4;
     border-radius: 5px;
 }
 
@@ -85,13 +85,13 @@ form input, form textarea {
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-    border: 1px solid #cf8861;
+    border: 1px solid #b6d9ee;
     border-radius: 3px;
 }
 
 form button {
-    background-color: #7a564e;
-    color: #fbe4ca;
+    background-color: #74a8a4;
+    color: #b6d9ee;
     border: none;
     padding: 8px 12px;
     cursor: pointer;
@@ -99,8 +99,8 @@ form button {
 }
 
 footer {
-    background-color: #7a564e;
-    color: #fbe4ca;
+    background-color: #335765;
+    color: #dbe2cd;
     text-align: center;
     padding: 10px;
     margin-top: 20px;

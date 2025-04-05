@@ -59,10 +59,15 @@ section, article, aside {
     background-color: #b6d9ee;
     color: #1f2530;
     padding: 20px;
+    text-align: center;
     box-sizing: border-box;
     margin: 15px;
 }
 
+.galeria img {
+    display: inline-block;
+    margin-right: 10px;
+  }
 
 form {
     display: block;
